@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'LuckiestGuyRegular';
+    src: url('controllers4u-luckiest-guy-regular.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'LuckiestGuyRegular';
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/**************************************************************************/
+
