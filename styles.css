@@ -8,16 +8,24 @@
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-stretch: ultra-expanded;
+    line-height: 1.5;
 
     margin: 0;
     padding: 0;
 }
 
 html {
-    background-color: #AAABAF;
+    background-color: #F5F5F5;
 
     margin: 0;
     padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 75px;
 }
 
 .nav-link,
@@ -26,6 +34,7 @@ h1,
 h2,
 h3 {
     font-family: 'LuckiestGuyRegular';
+    font-weight: lighter;
 }
 
 ::placeholder {
@@ -36,6 +45,7 @@ h3 {
 
 header {
     background-color: #FFFFFF;
+    border-bottom: 2px solid #AAABAF;
 
     padding: 20px;
     width: 100%;
@@ -130,6 +140,41 @@ header {
 
 /**************************************************************************/
 
+#features {
+    text-align: center;
+
+    scroll-margin-top: 100px;
+    margin: auto;
+    max-width: 1110px;
+}
+
+#features h2 {
+    margin-bottom: 15px;
+}
+
+#feature-container {
+    margin-top: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.feature-img {
+    width: 100px;
+    height: auto;
+}
+
+.feature {
+    border-right: 1px solid #AAABAF;
+}
+
+.feature:last-of-type {
+    border: none;
+}
+
+/**************************************************************************/
+
 .controller-img {
     width: 250px;
     height: auto;
@@ -139,10 +184,11 @@ header {
 
 footer {
     background-color: #FFFFFF;
+    border-top: 2px solid #AAABAF;
     font-weight: 100;
     text-align: center;
 
-    padding: 10px;
+    padding: 25px;
     width: 100%;
 
     bottom: 0;
