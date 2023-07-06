@@ -6,12 +6,93 @@
 * {
     box-sizing: border-box;
     font-family: 'LuckiestGuyRegular';
-}
 
-html {
     margin: 0;
     padding: 0;
 }
 
+html {
+    background-color: #AAABAF;
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 /**************************************************************************/
 
+header {
+    background-color: #FFFFFF;
+
+    padding: 15px;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-img {
+    width: 300px;
+    height: auto;
+}
+
+#nav-bar {
+    list-style: none;
+
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.nav-link {
+    color: #9E1624;
+    text-decoration: none;
+
+    padding: 5px;
+}
+
+.nav-link:hover {
+    background-color: #9E1624;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/**************************************************************************/
+
+#form {
+    margin-top: 75px;
+}
+
+#big-logo {
+    width: 750px;
+    height: auto;
+}
+
+/**************************************************************************/
+
+.controller-img {
+    width: 250px;
+    height: auto;
+}
+
+/**************************************************************************/
+
+footer {
+    background-color: #FFFFFF;
+    font-weight: 100;
+    text-align: center;
+
+    padding: 10px;
+    width: 100%;
+
+    bottom: 0;
+    left: 0;
+}
