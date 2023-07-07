@@ -1,3 +1,13 @@
+@media (max-width: 700px) {
+    #header-img {
+        width: 250px !important;
+    }
+
+    .pricing-option {
+        width: 600px !important;
+    }
+}
+
 @font-face {
     font-family: 'LuckiestGuyRegular';
     src: url('controllers4u-luckiest-guy-regular.ttf') format('truetype');
@@ -22,6 +32,7 @@ html {
 }
 
 body {
+    min-width: 650px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -50,6 +61,7 @@ header {
     border-bottom: 2px solid #AAABAF;
 
     padding: 20px;
+    min-width: 650px;
     width: 100%;
 
     position: fixed;
@@ -98,6 +110,8 @@ header {
 /**************************************************************************/
 
 #form {
+    text-align: center;
+
     margin-top: 100px;
 
     display: flex;
@@ -215,7 +229,7 @@ header {
     border: 2px solid #AAABAF;
     background-color: #FFFFFF;
 
-    max-width: 350px;
+    width: 350px;
     height: 525px;
 
     display: flex;
