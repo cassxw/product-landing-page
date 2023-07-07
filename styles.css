@@ -209,6 +209,8 @@ header {
 
 #pricing {
     text-align: center;
+
+    scroll-margin-top: 100px;
 }
 
 #pricing h2 {
