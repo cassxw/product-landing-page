@@ -156,21 +156,30 @@ header {
     margin-top: 30px;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.feature {
+    border-bottom: 1px solid #AAABAF;
+    text-align: left;
+
+    width: 750px;
+    padding: 30px;
+
+    display: flex;
+    align-items: center;
+}
+
+.feature:last-of-type {
+    border: none;
 }
 
 .feature-img {
     width: 100px;
     height: auto;
-}
-
-.feature {
-    border-right: 1px solid #AAABAF;
-}
-
-.feature:last-of-type {
-    border: none;
+    margin-right: 30px;
 }
 
 /**************************************************************************/
@@ -188,7 +197,8 @@ footer {
     font-weight: 100;
     text-align: center;
 
-    padding: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     width: 100%;
 
     bottom: 0;
