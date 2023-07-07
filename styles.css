@@ -32,7 +32,9 @@ body {
 input[type="submit"],
 h1,
 h2,
-h3 {
+h3,
+.price,
+.buy-now-button {
     font-family: 'LuckiestGuyRegular';
     font-weight: lighter;
 }
@@ -145,7 +147,7 @@ header {
 
     scroll-margin-top: 100px;
     margin: auto;
-    max-width: 1110px;
+    max-width: 900px;
 }
 
 #features h2 {
@@ -165,7 +167,7 @@ header {
     border-bottom: 1px solid #AAABAF;
     text-align: left;
 
-    width: 750px;
+    max-width: 750px;
     padding: 30px;
 
     display: flex;
@@ -184,9 +186,85 @@ header {
 
 /**************************************************************************/
 
+#video {
+    scroll-margin-top: 110px;
+    align-self: center;
+}
+
+/**************************************************************************/
+
+#pricing {
+    text-align: center;
+}
+
+#pricing h2 {
+    margin-bottom: 15px;
+}
+
+#controllers {
+    margin-top: 45px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+}
+
+.pricing-option {
+    border: 2px solid #AAABAF;
+    background-color: #FFFFFF;
+
+    max-width: 350px;
+    height: 525px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pricing-option h3 {
+    background-color: #CCAC3F;
+    font-size: 22px;
+    padding: 5px;
+    width: 100%;
+}
+
 .controller-img {
-    width: 250px;
+    width: 295px;
     height: auto;
+    align-self: center;
+}
+
+.pricing-option p {
+    font-size: 12.5px;
+    padding: 10px;
+}
+
+.price {
+    font-size: 30px !important;
+}
+
+.buy-now-button {
+    background-color: #9E1624;
+    color: #FFFFFF;
+    font-size: 20px;
+
+    margin-bottom: 25px;
+    
+    padding: 5px;
+}
+
+.buy-now-button:hover {
+    background-color: #FFFFFF;
+    color: #9E1624;
+    cursor: pointer;
+}
+
+.buy-now-button:active {
+    background-color: #000000;
+    color: #CCAC3F;
 }
 
 /**************************************************************************/
